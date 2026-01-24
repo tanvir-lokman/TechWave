@@ -8,7 +8,7 @@
     font-family: "Inter", sans-serif;
 }
 
-/* Nav Section with Responsive */
+/* Nav Section */
 header {
     background-color: #1A0B2E;
 
@@ -99,7 +99,7 @@ div a {
 
 }
 
-/* Header-Section with Responsive */
+/* Header-Section */
 
 #head-section {
     background-color: #1A0B2E;
@@ -202,7 +202,7 @@ div a {
     font-weight: 600;
 }
 
-/* About Section with Responsive */
+/* About Section */
 
 
 #about-section {
@@ -265,6 +265,8 @@ div a {
     margin-bottom: 120px;
 }
 
+
+/* Small Device */
 
 @media screen and (min-width:0px) and (max-width:576px) {
     .about-tags {
@@ -373,7 +375,7 @@ div a {
 
 
 
-/* Featured Section With Responsibe */
+/* Featured Section */
 
 
 
@@ -386,7 +388,6 @@ div a {
     width: 72%;
     margin: 0px auto;
 }
-
 
 
 .H1 {
@@ -405,7 +406,7 @@ div a {
 }
 
 
-.Ep-1{
+.Ep-1 {
     background-color: #250D44;
     border-radius: 24px;
 }
@@ -427,7 +428,7 @@ div a {
 .Ep-1 p {
     color: #ffffff;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 200;
     padding: 12px 24px 12px 24px;
 }
 
@@ -446,22 +447,113 @@ div a {
 }
 
 
+/* Small Device */
+
 @media screen and (min-width:0px) and (max-width:576px) {
     .Featured-Container {
         flex-direction: column;
 
     }
 
-    .Ep-1 h1{
+    .Ep-1 h1 {
         font-size: 32px;
         gap: 0;
     }
 
-    .Ep-1 iframe{
+    .Ep-1 iframe {
         width: 100%;
-        
+
     }
 }
 
 
 /* Host Section */
+
+
+
+.Host-content {
+    max-width: 1600px;
+    width: 72%;
+    margin: 0 auto;
+}
+
+.Host-content h1 {
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: bold;
+    padding-top: 120px;
+    padding-bottom: 40px;
+    text-align: center;
+
+}
+
+.Host-Container {
+    background-color: #250D44;
+    display: flex;
+}
+
+.Host-Container img {
+    margin-right: 24px;
+}
+
+.Host-Container {
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+}
+
+
+
+.Host-contents h2 {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.Host-contents p {
+    font-size: 16px;
+    font-weight: 200;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.Host-contents ul {
+    display: flex;
+}
+
+.Host-contents li {
+    list-style: none;
+
+}
+
+
+.Host-contents a {
+    padding: 10px;
+}
+
+
+/* Small Device */
+
+
+@media screen and (min-width:0px) and (max-width:576px) {
+    .Host-Container{
+        flex-direction: column;
+    }
+
+    .Host-content h1 {
+        font-size: 38px;
+    }
+
+    .Host-Container img{
+        margin-bottom: 15px;
+    }
+
+    .Host-contents{
+        text-align: center;
+    }
+}
+
+
+ Footer Section 
