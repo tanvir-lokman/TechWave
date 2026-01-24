@@ -59,6 +59,12 @@ div a {
     background: linear-gradient(180deg, #F7E93F, #FB09B4, #9100F8);
 }
 
+.thin {
+    height: 1px;
+    border: none;
+    background: #9999;
+}
+
 .nav-btn i {
     margin-left: 10px;
 }
@@ -69,7 +75,7 @@ div a {
 
 /* Small Device */
 
-@media screen and (min-width:576px) and (max-width:992px) {
+@media screen and (min-width:0px) and (max-width:576px) {
 
     .nav-div h1 {
         font-size: 40px;
@@ -146,7 +152,7 @@ div a {
 .head-content p {
     font-size: 16px;
     color: #ffffff;
-    font-weight: 500;
+    font-weight: 300;
     margin-bottom: 24px;
 }
 
@@ -179,6 +185,283 @@ div a {
     margin-left: 8px;
 }
 
-.head-btn2 img{
+.head-btn2 img {
     margin-right: 10px;
 }
+
+.new {
+    position: absolute;
+    bottom: 210px;
+    translate: -50% -50%;
+    left: 150px;
+    padding: 12px 14px;
+    background-color: #00FF88;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* About Section with Responsive */
+
+
+#about-section {
+    background-color: #1A0B2E;
+
+}
+
+
+.about-container {
+    max-width: 1600px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.about-taxt h1 {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    padding: 70px;
+    padding-bottom: 16px;
+}
+
+.p-1 {
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+    line-height: 35px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.p-2 {
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+    line-height: 35px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.about-tags {
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+}
+
+.tag h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #00FF88;
+    margin-bottom: 16px;
+}
+
+
+.tag p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 120px;
+}
+
+
+@media screen and (min-width:0px) and (max-width:576px) {
+    .about-tags {
+        flex-wrap: wrap;
+    }
+
+    .tag h1 {
+        margin-right: 20px;
+    }
+
+
+}
+
+
+/* Cards Section with Responsibe */
+/* 
+
+
+#Cards-Section {
+    background-color: #230E3D;
+}
+#Cards-Section h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+.Cards-container {
+
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 2fr;
+    gap: 40px;
+
+
+}
+.Card-Contents {
+    max-width: 1600px;
+    width: 75%;
+    margin: 0 auto;
+} 
+.card-1 {
+    padding: 40px;
+    border-radius: 40px;
+    background-color: #351165;
+
+}
+.card-1 p {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 16px 0 o 0;
+}
+ */
+/* 
+.Card {
+    padding: 120px 0;
+    background-color: #230E3D;
+}
+
+.Card-title {
+    margin-bottom: 40px;
+}
+
+.Grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.Card-1 {
+    background-color: #35116566;
+    border-radius: 40px;
+    padding: 40px;
+}
+
+.why-card img {
+    height: 55px;
+    margin-bottom: 16px;
+}
+
+.why-card h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.why-card p {
+    line-height: 1.6;
+    color: #cfcfcf;
+}
+
+.why-card.larg e{
+    padding: 105px 40px;
+    grid-row: span 2;
+}
+
+.why-card.wide {
+    grid-column: span 2;
+} */
+
+
+/* Cards */
+
+
+
+/* Featured Section With Responsibe */
+
+
+
+#Featured-Section {
+    background-color: #1A0B2E;
+}
+
+.Featured-Content {
+    max-width: 1600px;
+    width: 72%;
+    margin: 0px auto;
+}
+
+
+
+.H1 {
+    font-size: 48px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+
+.Featured-Container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+
+.Ep-1{
+    background-color: #250D44;
+    border-radius: 24px;
+}
+
+.Ep-1 iframe {
+    width: 380px;
+    height: 214px;
+    border-radius: 24px 24px 0 0;
+
+}
+
+.Ep-1 h1 {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 24px 24px 12px 24px;
+}
+
+.Ep-1 p {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 12px 24px 12px 24px;
+}
+
+.Ep-1 h3 {
+    color: #00FF88;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 24px 24px 24px;
+}
+
+.Ep-1 h3 i {
+    color: #00FF88;
+    font-size: 16px;
+    color: #00FF88;
+    margin-right: 8px;
+}
+
+
+@media screen and (min-width:0px) and (max-width:576px) {
+    .Featured-Container {
+        flex-direction: column;
+
+    }
+
+    .Ep-1 h1{
+        font-size: 32px;
+        gap: 0;
+    }
+
+    .Ep-1 iframe{
+        width: 100%;
+        
+    }
+}
+
+
+/* Host Section */
