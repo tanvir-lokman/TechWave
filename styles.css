@@ -189,6 +189,29 @@ div a {
     margin-right: 10px;
 }
 
+ /* Animation */
+
+ .new{
+    animation: floatBlink 2s infinite;
+ }
+
+@keyframes floatBlink {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  50% {
+    transform: translateY(-8px);
+    opacity: 0.7;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 .new {
     position: absolute;
     bottom: 210px;
