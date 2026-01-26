@@ -283,10 +283,146 @@ div a {
 
 /* Cards Section */
 
-.Card-Container{
+#Card-section {
+    background-color: #230E3D;
+    padding-bottom: 120px;
+}
+
+#Card-section h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: #ffffff;
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+
+.Card-Container {
     max-width: 1600px;
     width: 72%;
     margin: 0 auto;
+}
+
+.Card-Container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 225px, 225px, ;
+    gap: 30px;
+}
+
+.Card-Container div:nth-child(1) {
+    grid-column: span 3;
+    grid-row: span 2;
+
+}
+
+.Card-Container div:nth-child(2) {
+    grid-column: span 7;
+}
+
+.Card-Container div:nth-child(3) {
+    grid-column:4 / span 7;
+
+}
+
+.Card-Container div:nth-child(4) {
+    grid-column: span 7;
+}
+
+.Card-Container div:nth-child(5) {
+    grid-column: span 3;
+}
+
+.card-1 {
+    background-color: #351165;
+    padding: 40px;
+    border-radius: 40px;
+    height: 100%;
+}
+
+.card-2 {
+    background-color: #351165;
+    padding: 40px;
+    border-radius: 40px;
+}
+
+.card-3 {
+    background-color: #351165;
+    padding: 40px;
+    border-radius: 40px;
+}
+
+.card-4 {
+    background-color: #351165;
+    padding: 40px;
+    border-radius: 40px;
+}
+
+.card-5 {
+    background-color: #351165;
+    padding: 40px;
+    border-radius: 40px;
+}
+
+.card-1 h3 {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 16px 0 16px 0;
+}
+
+.card-2 h3 {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 16px 0 16px 0;
+}
+
+.card-3 h3 {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 16px 0 16px 0;
+}
+
+.card-4 h3 {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 16px 0 16px 0;
+}
+
+.card-5 h3 {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 16px 0 16px 0;
+}
+
+.card-1 p{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 200;
+}
+.card-2 p{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 200;
+}
+.card-3 p{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 200;
+}
+.card-4 p{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 200;
+}
+.card-5 p{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 200;
 }
 
 /* Featured Section */
@@ -382,7 +518,7 @@ div a {
 
 /* Host Section */
 
-#Host-section{
+#Host-section {
     padding-bottom: 120px;
 }
 
@@ -512,11 +648,11 @@ div a {
     margin-bottom: 10px;
 }
 
-.footer-img img{
+.footer-img img {
     margin-right: 10px;
 }
 
-.copyright h3{
+.copyright h3 {
     margin-top: 32px;
     font-size: 16px;
     color: #ffffff;
